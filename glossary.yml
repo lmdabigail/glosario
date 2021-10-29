@@ -371,6 +371,14 @@
       [تم نجاحه](#pass_test)
       و اذا كان النتيجتين مختلفتين فان الاختبار قد
       [فشل](#fail_test).
+  id: 
+    term: "hasil aktual (dari sebuah pengujian)"
+    def: >
+      Nilai yang dihasilkan dari kode yang dijalankan di dalam sebuah pengujian. 
+      Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
+      maka pengujian dianggap [lulus](#passes); 
+      namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fails).
+      
 
 
 - slug: affordance
